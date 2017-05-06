@@ -1,0 +1,30 @@
+{
+	"requireCurlyBraces": [
+		"if",
+		"else",
+		"for",
+		"while",
+		"do",
+		"try",
+		"catch"
+	],
+	"disallowMixedSpacesAndTabs": true,
+	// "disallowDanglingUnderscores": true,
+	"disallowMultipleLineBreaks": true,
+	// "disallowMultipleVarDecl": true,
+	// "disallowTrailingComma": true,
+	// "disallowTrailingWhitespace": true,
+	"disallowYodaConditions": true,
+	// "requireFunctionDeclarations": true,
+	"requireSpaceAfterBinaryOperators": true,
+	"requireSpaceBeforeBinaryOperators": true,
+	"requireSpaceBeforeBlockStatements": true,
+	"disallowSpaceAfterObjectKeys": true,
+	"disallowKeywordsOnNewLine": ["else"],
+	"disallowNewlineBeforeBlockStatements": true,
+	"validateLineBreaks": "LF",
+	"validateParameterSeparator": ", ",
+	"requireOperatorBeforeLineBreak": ["."],
+	"safeContextKeyword": ["self", "controller", "service"],
+	"validateIndentation": "\t"	
+}
